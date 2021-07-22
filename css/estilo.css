@@ -1,0 +1,299 @@
+@font-face {
+	font-family: Helvetica;
+	src: url(../fonts/Helvetica-Narrow.otf);
+}
+
+@font-face {
+	font-family: HelveticaBold;
+	src: url(../fonts/Helvetica-Bold.ttf);
+}
+
+@font-face {
+	font-family: HelveticaLight;
+	src: url(../fonts/Helvetica-Light.otf);
+}
+
+body {
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #000000;
+}
+
+div.banner {
+	height: 700px;
+	background-image: url(../img/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+ul.menu li {
+	display: inline-block;
+	list-style: none;
+	margin-top: 0px;
+	float: left;
+}
+
+ul.menu a {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 20px;
+	margin-top: 66px;
+	display: block;
+}
+
+ul.menu a.logo {
+	display: block;
+	float: left;
+	margin-top: -20px;
+}
+
+div.social a {
+	display: inline-block;
+	margin-top: 80px;
+	margin-left: 15px;
+}
+
+ul.menu a:hover {
+	color: #CC949E;
+}
+
+div.primeiro-bloco,
+div.segundo-bloco,
+div.terceiro-bloco {
+	height: 180px;
+	background-color: #CC949E;
+	margin-top: -70px;
+	color: #fff;
+}
+
+div.segundo-bloco {
+	background-color: #F1AFBB;
+}
+
+div.terceiro-bloco {
+	background-color: #FBBFCA;
+}
+
+div.icone-bloco img {
+	margin-top: 65px;
+	width: 48px;
+	margin-left: 15px;
+}
+
+h2.titulo-bloco {
+	margin-top: 45px;
+	font-family: HelveticaBold;
+}
+
+div.anos h1,
+h2.arte {
+	font-family: HelveticaBold;
+	color: #F1AFBB;
+	font-size: 50px;
+	margin-top: 150px;
+}
+
+div.anos h1 span,
+h2.arte span {
+	color: #E5E5E5;
+	font-family: HelveticaLight;
+	font-size: 38px;
+	line-height: 42px;
+	display: block;
+}
+
+div.textos {
+	margin-top: 80px;
+}
+
+div.textos p {
+	margin-bottom: 30px;
+}
+
+div.video {
+	height: 700px;
+	background-image: url(../img/video.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	text-align: center;
+}
+
+div.video img {
+	display: inline-block;
+	/* Libera o text align */
+	margin-top: 280px;
+}
+
+div.video h2 {
+	color: #fff;
+	margin-top: 50px;
+	font-size: 44px;
+}
+
+h2.arte {
+	text-align: center;
+}
+
+h2.arte span {
+	color: #000;
+}
+
+ul.procedimentos li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+ul.procedimentos li a {
+	color: #000;
+	text-decoration: none;
+}
+
+ul.procedimentos {
+	text-align: center;
+	margin-top: 30px;
+}
+
+img.img-trata {
+	width: 20px;
+	float: right;
+	margin-top: -7px;
+}
+
+figure.effect-sadie p {
+	font-family: HelveticaBold;
+	text-transform: lowercase;
+	font-size: 16px;
+	text-align: left;
+}
+
+figure.effect-sadie img {
+	filter: grayscale(100);
+}
+
+figure.effect-sadie:hover img {
+	filter: grayscale(0);
+	transition: all 0.5s;
+	transform: scale(1.2);
+}
+
+.grid {
+	margin: 0;
+	max-width: 100%;
+	margin-top: 60px;
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+
+.grid figure {
+	margin: 0;
+	max-width: 16.6%;
+	min-width: 16.6%;
+}
+
+div.estrutura {
+	height: auto;
+	background-image: url(../img/banner_estrutura.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 80px;
+}
+
+div.estrutura h2.arte span {
+	color: white;
+}
+
+div.bloco1 img,
+div.bloco2 img {
+	margin-top: 30px;
+	filter: grayscale(100);
+	transition: all 0.5s;
+}
+
+div.bloco1 img:hover,
+div.bloco2 img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.input {
+	background-color: #F7F7F7;
+	border: 0px;
+	box-shadow: none;
+	height: 45px;
+	margin-bottom: 20px;
+	resize: none;
+}
+
+input.botao,
+input.botao:hover {
+	background-color: #F1AFBB;
+	border-color: #F1AFBB;
+	border-radius: 20%;
+	height: 65px;
+	width: 136px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	letter-spacing: 0rem;
+	right: 0;
+	float: right;
+	font-family: HelveticaBold;
+	margin-bottom: 16.18px;
+}
+
+div.mapa {
+	border-top: #F1AFBB solid 16.18px;
+}
+
+footer {
+	padding: 109.6px 0px;
+	background-color: #000;
+}
+
+footer div h3 {
+	font-family: HelveticaBold;
+	color: #F1AFBB;
+	margin-top: 48.54px;
+	font-size: 32.36px;
+}
+
+footer div ul li {
+	list-style: none;
+
+}
+
+footer div ul {
+	padding-left: 20px;
+}
+
+footer div ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+footer div ul li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+img.logo-footer {
+	padding-top: 20px;
+}
+address{
+	color: white;
+	height: 50%;
+}
+p.white{
+	color: white;
+}
+div.direitos{
+	background-color: #202020;
+	color: white;
+	padding: 16.18px 0px;
+	text-align: center;
+}
